@@ -1,0 +1,30 @@
+{
+    "name": "leopardus-net/docs",
+    "description": "Documentation of Leopardus system",
+    "authors": [
+        {
+            "name": "Leopardus Docs",
+            "email": "support@leoardus.net"
+        }
+    ],
+    "require": {
+        "erusev/parsedown-extra": "0.7.0",
+        "symfony/browser-kit": "~3.1",
+        "vinkla/algolia": "~3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Docs\\Providers\\DocsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Docs\\": ""
+        }
+    }
+}

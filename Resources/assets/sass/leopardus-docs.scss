@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+// base
+@import "core/settings";          // color + font variables
+@import "core/normalize";         // css reset
+@import "core/mixins";            // utilities
+@import "core/base";              // base helpers and typographical styles
+
+// third party components
+@import "components/prism";       // code highlighting
+
+// content
+@import "content/docs";
+@import "content/404";
+
+#carbonads {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 14px 12px;
+  border: dashed 1px #e6e6e6;
+  text-align: center;
+  font-size: 12px;
+}
+
+#carbonads span {
+  display: block;
+  overflow: hidden;
+}
+
+.carbon-img {
+  display: block;
+  margin: 0 auto 8px;
+  line-height: 1!important;
+}
+
+.carbon-text {
+  display: block;
+  margin-bottom: 8px;
+  line-height: 1.7 !important;
+}
+
+.carbon-poweredby {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 8px;
+  line-height: 1 !important;
+}
