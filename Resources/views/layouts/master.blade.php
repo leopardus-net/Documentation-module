@@ -27,7 +27,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ asset('module/docs/css/docs.css') }}">
+    <link rel="stylesheet" href="{{ asset('modules/docs/css/docs.css') }}">
     <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7737514/7707592/css/fonts.css" />
     
     @yield('styles')
@@ -114,7 +114,7 @@
     <!--Custom JavaScript -->
     <script src="{{ asset('js/custom.js') }}"></script>     
 
-    <script src="{{ asset('module/docs/js/docs.js') }}"></script>   
+    <script src="{{ asset('modules/docs/js/docs.js') }}"></script>   
     </script>
 
     @yield('scripts')
